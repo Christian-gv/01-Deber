@@ -15,7 +15,8 @@ namespace _01_Deber
         public Form1()
         {
             InitializeComponent();
-
+            Bitmap img = new Bitmap(Application.StartupPath + @"\img\descarga.jpg" );
+            this.BackgroundImage = img;
         }
 
         private void label1_Click(object sender, EventArgs e)
